@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ArrayList<String> allWords = new ArrayList<>();
         int aLetter=0;
         int ąLetter=0;
@@ -204,6 +204,7 @@ public class Main {
         System.out.println("z "+zLetter);
         System.out.println("ź "+źLetter);
         System.out.println("ż "+żLetter);
+        Thread.sleep(30000);
         System.exit(0);
 
 
